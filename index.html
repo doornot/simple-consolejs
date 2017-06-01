@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,height=device-width">
+<title>console.log</title>
+<link rel="stylesheet" href="console.css">
+</head>
+<body>
+<div class="debug-wrap"> <!-- hide -->
+    <textarea id="debug"></textarea>
+    <div class="controller"></div>
+    <div class="clean"></div>
+    <div class="refresh"></div>
+    <div class="back"></div>
+</div>
+</body>
+<!-- 引入/不引入console.js，分别在浏览器控制台输出：window，window.console，window.console.log，对比发现差异，理解实现console.js的实现思路。 -->
+<script src="console.js"></script>
+<script>
+	var a = 'hello';
+	var b = { name: 'Jack', age: 22 };
+	console.log(a);
+	console.log(b);
+	console.log(c);
+</script>
+</html>
