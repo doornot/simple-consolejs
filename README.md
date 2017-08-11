@@ -1,2 +1,2 @@
-# simple-consolejs
-simple console.js
+# simple consolejs
+mobile page debug
